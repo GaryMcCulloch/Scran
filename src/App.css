@@ -1,21 +1,10 @@
 /* Universal Styles */
-
-html {
-  font-size: 18px;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Work Sans', sans-serif;
 }
-
-@media only screen and (max-width: 560px) {
-  html {
-    font-size: 15px;
-  }
-}
-
-input:focus {
-  outline: none;
-}
-
-/* Reusable Component - Image Container */
-
 .image-container {
   display: flex;
   flex-direction: column;
@@ -26,19 +15,4 @@ input:focus {
 
 .image-container img {
   width: 100%;
-}
-
-/* App Styles */
-
-.App {
-  font-family: 'Work Sans', sans-serif;
-}
-
-h1 {
-  padding: .66rem 0;
-  text-align: center;
-  background-color: #cca353;
-  font-family: Poppins, sans-serif;
-  font-size: 1.8rem;
-  color: #fff;
 }
